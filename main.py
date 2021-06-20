@@ -42,28 +42,28 @@ operacion=menu_operaciones()
 #Condicionales de eleccion de opciones
 #Condicional Suma
 if operacion == 1 :
-  print('Seleccionaste la opcion' , operacion,'\nVAMOS A SUMAR!!\n')
+  print('Seleccionaste la opcion' , operacion,'\n\nVAMOS A SUMAR!!\n')
   num1 = float(input('Ingresa el primer sumando: '))
   num2 = float(input('Ingresa el segundo sumando: '))
   print('\nEl resultado es: ',f.sumar_numeros(num1 , num2))
 
 #C ondicional Resta
 elif operacion == 2 :
-  print('Seleccionaste la opcion' , operacion,'\n VAMOS A RESTAR!!\n')
+  print('Seleccionaste la opcion' , operacion,'\n\nVAMOS A RESTAR!!\n')
   num1 = float(input('Ingresa el minuendo: '))
   num2 = float(input('Ingresa el sustraendo: '))
   print( '\nEl resultado es: ' ,f.restar_numeros(num1 , num2))
  
 #Condicional Multiplicación
 elif operacion == 3 :
-  print('Seleccionaste la opcion' , operacion,'\nVAMOS A MULTIPLICAR!!\n')
+  print('Seleccionaste la opcion' , operacion,'\n\nVAMOS A MULTIPLICAR!!\n')
   num1 = float(input('Ingresa el multiplicando: '))
   num2 = float(input('Ingresa el multiplicador: '))
   print( '\nEl resultado es: ' ,f.multiplicar_numeros(num1 , num2))
 
 #Condicional División
 elif operacion == 4 :
-  print('Seleccionaste la opcion' , operacion,'\nVAMOS A DIVIDIR!!\n')
+  print('Seleccionaste la opcion' , operacion,'\n\nVAMOS A DIVIDIR!!\n')
   num1 = float(input('Ingresa el dividendo: '))
   num2 = float(input('Ingresa el divisor: '))
   f.dividir_numeros(num1 , num2)
