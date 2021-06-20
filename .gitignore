@@ -1,0 +1,11 @@
+#Ignore Image
+*.jpg
+*.png
+*.jpeg
+
+#Ignore OSX
+*.DS_Store
+
+#Ignore Python
+__pycache__
+*.pyc
